@@ -35,8 +35,9 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :mongo, Mongo.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "mongo_dev",
+   username: "mongodb",
+  password: "mongosb",
   hostname: "localhost",
+  database: "mongo_dev",
+  
   pool_size: 10
